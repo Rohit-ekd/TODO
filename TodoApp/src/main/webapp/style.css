@@ -1,0 +1,90 @@
+.todo-header {
+    background: linear-gradient(135deg, #f8f9fa, #eef6ff);
+    border-radius: 15px;
+}
+
+/* Main title */
+.todo-title {
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    transition: transform 0.3s ease;
+}
+
+.todo-title:hover {
+    transform: scale(1.08);
+}
+
+/* Icon */
+.todo-icon {
+    font-size: 38px;
+    color: #198754;
+}
+
+/* Google-like colors */
+.t1 { color: #4285F4; } /* Blue */
+.t2 { color: #EA4335; } /* Red */
+.t3 { color: #FBBC05; } /* Yellow */
+.t4 { color: #34A853; } /* Green */
+
+/* Subtitle */
+.subtitle {
+    font-size: 14px;
+    color: #6c757d;
+    letter-spacing: 1px;
+}
+
+
+/* Fixed footer */
+.footer-fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(90deg, #f8f9fa, #eef6ff);
+    border-top: 2px solid #dee2e6;
+    z-index: 999;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Icon */
+.footer-icon {
+    font-size: 22px;
+    color: #198754;
+}
+
+/* Text */
+.footer-text {
+    color: #495057;
+    font-size: 14px;
+}
+
+/* Center tagline */
+.footer-tagline {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #6c757d;
+}
+
+/* Social links */
+.social-link {
+    font-size: 20px;
+    color: #6c757d;
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    transform: translateY(-4px) scale(1.15);
+}
+
+/* Individual brand colors */
+.social-link.instagram:hover { color: #E1306C; }
+.social-link.facebook:hover { color: #1877F2; }
+.social-link.github:hover { color: #000; }
+
+/* Prevent footer overlap */
+body {
+    padding-bottom: 80px;
+}
+
